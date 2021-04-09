@@ -35,7 +35,7 @@ a:hover {
 a:focus {
   text-decoration: none;
 }
-li a {    display: flex; }
+li a {    display: block; }
 p {
   line-height: 1.5;
 }
