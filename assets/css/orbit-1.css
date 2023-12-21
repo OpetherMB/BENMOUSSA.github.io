@@ -7,6 +7,8 @@
  * Twitter: @3rdwave_themes
  * Website: http://themes.3rdwavemedia.com/
 */
+
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
@@ -353,4 +355,33 @@ p {
     width: 30%;
     margin-bottom: 0;
   }
+}
+
+
+.upper-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-icons {
+  display: flex;
+  align-items: center;
+}
+
+.company-icon {
+  height: 40px; /* Adjust height as needed */
+  width: auto;
+  /* Add margin if needed for spacing between icons */
+}
+
+/* Ensure .company-icons div takes up the remaining space to push icons to the right */
+.company-icons {
+  margin-left: auto;
+}
+
+
+.time {
+  flex-shrink: 0;
+  margin-right: 10px; /* Ensure there's space between time and icons */
 }
